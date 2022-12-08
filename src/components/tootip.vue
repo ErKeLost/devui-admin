@@ -64,7 +64,6 @@ function onPointerleave() {
       leave-to-class="transform opacity-0"
     >
       <div
-        v-if="isOpen"
         :style="{ position: strategy, top: floatingTop, left: floatingLeft }"
         class="py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm w-max transition-opacity"
         ref="floating"
