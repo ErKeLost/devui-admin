@@ -1,8 +1,8 @@
 {
   "name": "devui-admin",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -24,6 +24,7 @@
     "@commitlint/config-conventional": "^17.3.0",
     "@types/node": "^18.11.11",
     "@vitejs/plugin-vue": "^3.2.0",
+    "@vitejs/plugin-vue-jsx": "^2.1.1",
     "commitlint": "^17.3.0",
     "eslint": "^8.29.0",
     "eslint-config-relaxed-vue": "^2.0.2",
