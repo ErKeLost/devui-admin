@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
+    "prepare": "husky install",
     "format": "prettier --write \"**/*.{ts,tsx,vue}\"",
     "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules"
   },
@@ -19,8 +20,10 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^17.3.0",
     "@types/node": "^18.11.11",
     "@vitejs/plugin-vue": "^3.2.0",
+    "commitlint": "^17.3.0",
     "eslint": "^8.29.0",
     "eslint-config-relaxed-vue": "^2.0.2",
     "husky": "^8.0.2",

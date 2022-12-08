@@ -1,0 +1,6 @@
+{
+  "*.{js,vue,ts,tsx}": [
+    "prettier --write \"**/*.{ts,tsx,vue}\"",
+    "eslint  --fix"
+  ]
+}
