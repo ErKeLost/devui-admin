@@ -2,6 +2,7 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
+import Tooltip from './components/tootip.vue'
 </script>
 
 <template>
@@ -18,6 +19,17 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <Tooltip>
+    <template #target>
+      <button
+        type="button"
+        class="bg-blue-500 text-white font-bold py-2 px-4 rounded"
+      >
+        My anchor
+      </button>
+    </template>
+    <template #content>My tooltip</template>
+  </Tooltip>
 </template>
 
 <style scoped>
