@@ -1,5 +1,7 @@
 <template>
-  <div>12313221</div>
+  <div>
+    <img src="./assets/logo.svg" alt="" />
+  </div>
 </template>
 
 <script></script>
