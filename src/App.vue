@@ -1,3 +1,4 @@
+
 <template>
   <d-layout>
     <d-header class="dheader">Header</d-header>
@@ -7,8 +8,7 @@
     </d-layout>
     <d-footer class="dfooter">Footer</d-footer>
   </d-layout>
-</template>
-
+ </template>
 <script setup lang="ts"></script>
 
 <style>
