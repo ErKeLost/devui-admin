@@ -7,16 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    DAccordion: typeof import('vue-devui/accordion/index.es.js')['Accordion']
-    DAside: typeof import('vue-devui/aside/index.es.js')['Aside']
-    DBreadcrumb: typeof import('vue-devui/breadcrumb/index.es.js')['Breadcrumb']
-    DBreadcrumbItem: typeof import('vue-devui/breadcrumb-item/index.es.js')['BreadcrumbItem']
-    DContent: typeof import('vue-devui/content/index.es.js')['Content']
-    DFooter: typeof import('vue-devui/footer/index.es.js')['Footer']
-    DHeader: typeof import('vue-devui/header/index.es.js')['Header']
-    DLayout: typeof import('vue-devui/layout/index.es.js')['Layout']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Tootip: typeof import('./src/components/tootip.vue')['default']
   }
 }
