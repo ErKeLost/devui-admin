@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@commitlint/cli': ^17.3.0
   '@commitlint/config-conventional': ^17.3.0
   '@types/node': ^18.11.11
   '@vitejs/plugin-vue': ^3.2.0
@@ -33,6 +34,7 @@ dependencies:
   vue-router: 4.1.6_vue@3.2.45
 
 devDependencies:
+  '@commitlint/cli': 17.3.0
   '@commitlint/config-conventional': 17.3.0
   '@types/node': 18.11.11
   '@vitejs/plugin-vue': 3.2.0_l35eeiwyogbzscqn5c4ndnlwry
