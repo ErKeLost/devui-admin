@@ -1,9 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "composite": true,
     "module": "ESNext",
     "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "~/*": ["src/*"],
+      "@/*": ["src/*"]
+    }
   },
   "exclude": ["node_modules", "dist"]
 }
