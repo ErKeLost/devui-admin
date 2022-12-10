@@ -5,24 +5,24 @@ export default function setupVitePwa() {
     registerType: 'autoUpdate',
     includeAssets: ['favicon.ico'],
     manifest: {
-      name: 'SoybeanAdmin',
-      short_name: 'SoybeanAdmin',
+      name: 'DevUIAdmin',
+      short_name: 'DevUIAdmin',
       theme_color: '#fff',
       icons: [
         {
-          src: '/logo.png',
+          src: '/devui.svg',
           sizes: '192x192',
-          type: 'image/png'
+          type: 'image/svg'
         },
         {
-          src: '/logo.png',
+          src: '/devui.svg',
           sizes: '512x512',
-          type: 'image/png'
+          type: 'image/svg'
         },
         {
-          src: '/logo.png',
+          src: '/devui.svg',
           sizes: '512x512',
-          type: 'image/png',
+          type: 'image/svg',
           purpose: 'any maskable'
         }
       ]

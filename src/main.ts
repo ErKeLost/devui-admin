@@ -1,13 +1,14 @@
 import { createApp } from 'vue'
+import DevUI from 'vue-devui'
+import { ThemeServiceInit, infinityTheme } from 'devui-theme'
 import { setupStore } from '@/store'
 import { setupAssets } from '@/plugins'
 import { setupRouter } from '@/router'
 import i18n from '@/plugins/locales/index'
 import App from './App.vue'
-import DevUI from 'vue-devui'
+import 'uno.css'
 import 'vue-devui/style.css'
 import '@devui-design/icons/icomoon/devui-icon.css'
-import { ThemeServiceInit, infinityTheme } from 'devui-theme'
 async function setupApp() {
   // import assets: js、css
   setupAssets()

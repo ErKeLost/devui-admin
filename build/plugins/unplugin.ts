@@ -1,7 +1,7 @@
 // import Components from 'unplugin-vue-components/vite'
 // import { DevUiResolver } from 'unplugin-vue-components/resolvers'
 import Icons from 'unplugin-icons/vite'
-import Unocss from 'unocss/vite'
+import Unocss from '@unocss/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 import Imagemin from 'unplugin-imagemin/vite'
 import AutoImport from 'unplugin-auto-import/vite'
