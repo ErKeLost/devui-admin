@@ -1,4 +1,4 @@
-import { createI18n } from 'vue-i18n/dist/vue-i18n.cjs.js'
+import { createI18n } from 'vue-i18n'
 // import zh from './lang/zh-CN'
 // import en from './lang/en-US'
 const messages = {

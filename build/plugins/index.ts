@@ -8,6 +8,13 @@ import unplugin from './unplugin'
  * @param viteEnv - 环境变量配置
  */
 export function setupVitePlugins(): (PluginOption | PluginOption[])[] {
-  const plugins = [vue(), vueJsx(), ...unplugin()]
+  const plugins = [
+    vue({
+      include: [/\.vue$/, /\.md$/],
+      reactivityTransform: true
+    }),
+    vueJsx(),
+    ...unplugin()
+  ]
   return plugins
 }

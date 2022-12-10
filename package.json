@@ -28,8 +28,10 @@
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
+    "@iconify/json": "^2.1.150",
     "@types/node": "^18.11.11",
-    "@unocss/reset": "^0.47.5",
+    "@unocss/preset-uno": "^0.47.5",
+    "@unocss/vite": "^0.47.5",
     "@vitejs/plugin-vue": "^3.2.0",
     "@vitejs/plugin-vue-jsx": "^2.1.1",
     "commitlint": "^17.3.0",
@@ -37,13 +39,18 @@
     "eslint-config-relaxed-vue": "^2.0.2",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
+    "mockjs": "^1.1.0",
     "prettier": "^2.8.0",
+    "rollup-plugin-visualizer": "^5.8.3",
+    "sass": "^1.56.2",
     "typescript": "^4.6.4",
     "unocss": "^0.47.5",
     "unplugin-auto-import": "^0.12.0",
+    "unplugin-icons": "^0.14.14",
     "unplugin-imagemin": "^0.1.12",
     "unplugin-vue-components": "^0.22.11",
     "vite": "^4.0.0",
+    "vite-plugin-pwa": "^0.13.3",
     "vue-tsc": "^1.0.9"
   }
 }
