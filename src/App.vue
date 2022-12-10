@@ -1,7 +1,7 @@
 <template>
   <div>
-    <img src="./assets/logo.svg" alt="" />
+    <RouterView />
   </div>
 </template>
 
-<script></script>
+<script setup lang="ts"></script>
