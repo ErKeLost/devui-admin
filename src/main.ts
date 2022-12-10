@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import DevUI from 'vue-devui'
 import { ThemeServiceInit, infinityTheme } from 'devui-theme'
 /** 重置样式 这里引入自定义的重置样式也可 */
-// import '@unocss/reset/tailwind.css'
+import '@unocss/reset/tailwind.css'
 import { setupStore } from '@/store'
 import { setupAssets } from '@/plugins'
 import { setupRouter } from '@/router'
