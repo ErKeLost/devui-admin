@@ -1,8 +1,8 @@
 // import Components from 'unplugin-vue-components/vite'
 // import { DevUiResolver } from 'unplugin-vue-components/resolvers'
 import Icons from 'unplugin-icons/vite'
-import Unocss from '@unocss/vite'
-import IconsResolver from 'unplugin-icons/resolver'
+import unocss from 'unocss/vite'
+// import IconsResolver from 'unplugin-icons/resolver'
 import Imagemin from 'unplugin-imagemin/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import { getSrcPath } from '../utils'
@@ -26,7 +26,7 @@ export default function unplugin() {
       scale: 1,
       defaultClass: 'inline-block'
     }),
-    Unocss(),
+    unocss(),
     Imagemin(),
     AutoImport({
       imports: ['vue', 'vue-router', 'pinia', '@vueuse/head', '@vueuse/core'],

@@ -1,30 +1,38 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div h-full text-center flex select-none all:transition-400>
-    <div ma>
-      <div
-        text-5xl
-        fw100
-        animate-bounce-alt
-        animate-count-infinite
-        animate-duration-1s
-      >
-        unocss
-      </div>
-      <div op30 text-lg fw300 m1>The instant on-demand Atomic CSS engine.</div>
-      <div m2 flex justify-center text-2xl op30 hover="op80">
-        <a
-          i-carbon-logo-github
-          text-inherit
-          href="https://github.com/unocss/unocss"
-          target="_blank"
-        ></a>
+  <div flex h-screen justify-center>
+    <div relative flex-1 f-c-c hidden w-0 lg:block>
+      <img
+        absolute
+        inset-0
+        object-cover
+        w-250
+        h-100
+        src="../../assets/devui-design.svg"
+        alt=""
+      />
+    </div>
+    <div
+      flex
+      flex-col
+      justify-center
+      items-center
+      flex-1
+      px-4
+      py-12
+      sm:px-6
+      lg:flex-none
+      lg:px-20
+      xl:px-24
+      relative
+    >
+      <div flex items-center w-full h-full max-w-128 mx-auto lg:w-128>
+        <transition name="bounceInDown" mode="out-in" appear>
+          13123123
+        </transition>
       </div>
     </div>
-  </div>
-  <div absolute bottom-5 right-0 left-0 text-center op30 fw300>
-    on-demand · instant · fully customizable
   </div>
 </template>
 
